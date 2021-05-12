@@ -1,0 +1,162 @@
+body
+{
+    display:block;
+    font-family:'Poppins', sans-serif;
+    margin:0px;
+}
+main{
+    display:block;
+}
+#topbar{
+    background-color: white;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position:fixed;
+}
+header{
+    width:100%;
+    height:100vh;
+    display:inline-block;
+}
+.logo img{
+    width:120px;
+    height:25%;
+    
+}
+.redirect{
+    display:inline-block;
+    
+}
+.redirect a{
+    font-size:15px;
+    font-weight:600px;
+    margin-right:40px;
+}
+.redirect a:hover{
+    cursor:pointer;
+    border-bottom:4px solid blue;
+}
+.account-button{
+    border-radius: 10px;
+    border:0px;
+    color: #A389CC;
+    background-color:#FFD8DB;
+    margin-right:25px;
+    font-size:14px;
+    font-weight:600px;
+    height:40px;
+    width:100%
+}
+.account-button:hover{
+    cursor:pointer;
+    color:#FFD8DB;
+    background-color:#A389CC;
+    border:1px solid #FFD8DB;
+}
+#slide{
+    width:100%;
+    height:120vh;
+    min-height:calc(100%-77px);
+    margin-top:77px;
+    display:flex;
+    justify-content: space-between;
+}
+.left{
+    width:50%;
+    margin-left:10%;
+}
+.left h1{
+    font-weight:600px;
+    font-size:60px;
+
+}
+.left p{
+    font-weight:400px;
+    font-size:20px;
+    color:lightslategray;
+}
+.account-arrow{
+    width: 45%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.account-arrow img{
+    height:7vh;
+    padding:5px;
+}
+.new-account{
+    background-color: #5243C0;
+    color:#ffffff;
+    border:0px;
+    border-radius: 10px;
+    height:7vh;
+    width:50%;
+    margin-top:0px;
+}
+.new-account:hover{
+    cursor:pointer;
+    color:#5243C0;
+    background-color:#ffffff;
+    border:1px solid #5243C0;
+}
+.list-items{
+    width:75%;
+    border-collapse: collapse;
+}
+   
+.list{
+    border:1px solid #ccc;
+    background-color: rgb(236, 236, 245);
+  
+    
+}
+.list:hover{
+    background-color: white;
+    cursor:pointer;
+    box-shadow:0 0 0 #ccc;
+}
+.list h3{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+.list img{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+button{
+    border-radius:16px;
+    width:40px;
+    height:3vh;
+    border:0px;
+    
+}
+.p1{
+    background-color:#FED7DA;  
+    color:#FED7Da;
+}
+.p2{
+background-color:#FD6534;
+color:#FD6534;
+}
+.p3{
+ background-color:#9ED095;
+ color:#9ED095;
+}
+.p4{
+ background-color:#FFE4A0;
+ color:#FFE4A0;
+}
+.right{
+    width:50%;
+}
